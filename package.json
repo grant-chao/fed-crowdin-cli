@@ -1,6 +1,6 @@
 {
     "name": "fed-crowdin-cli",
-    "version": "1.0.8",
+    "version": "2.0.0",
     "description": "Crowdin CLI",
     "main": "bin/cli.js",
     "scripts": {
@@ -23,6 +23,7 @@
     },
     "homepage": "https://github.com/zzhhuobi/fed-crowdin-cli#readme",
     "dependencies": {
+        "@crowdin/crowdin-api-client": "^1.19.2",
         "axios": "^0.21.1",
         "chalk": "^4.1.1",
         "commander": "^7.2.0",
