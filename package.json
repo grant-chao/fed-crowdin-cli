@@ -1,6 +1,6 @@
 {
     "name": "fed-crowdin-cli",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Crowdin CLI",
     "main": "bin/cli.js",
     "scripts": {
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zzhhuobi/fed-crowdin-cli.git"
+        "url": "git+https://github.com/grant-chao/fed-crowdin-cli.git"
     },
     "keywords": [
         "Crowdin"
@@ -19,9 +19,9 @@
     "author": "zhaozhenhua",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/zzhhuobi/fed-crowdin-cli/issues"
+        "url": "https://github.com/grant-chao/fed-crowdin-cli/issues"
     },
-    "homepage": "https://github.com/zzhhuobi/fed-crowdin-cli#readme",
+    "homepage": "https://github.com/grant-chao/fed-crowdin-cli#readme",
     "dependencies": {
         "@crowdin/crowdin-api-client": "^1.19.2",
         "axios": "^0.21.1",
