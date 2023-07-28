@@ -1,12 +1,18 @@
-module.exports = {
+export default {
     root: true,
     env: {
         es6: true,
         browser: true,
         node: true
     },
+    parser: '@babel/eslint-parser',
     parserOptions: {
-        parser: 'babel-eslint'
+        sourceType: "module",
+        babelOptions: {
+            plugins: [
+                '@babel/plugin-syntax-import-assertions'
+            ],
+        },
     },
     extends: [],
     plugins: [],
@@ -28,7 +34,5 @@ module.exports = {
         'no-empty': 'warn',
         'comma-dangle': ['error', 'only-multiline'],
         "max-len": ["error", { "code": 350 }],
-        'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-        'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     }
 };

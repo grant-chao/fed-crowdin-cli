@@ -1,7 +1,9 @@
-let program = require('commander');
+import program from 'commander';
+import chalk from 'chalk';
+import CrowdinV2 from '../lib/crowdin.v2.js';
+import Module from "node:module";
+const require = Module.createRequire(import.meta.url);
 const pkg = require('../package.json');
-const chalk = require('chalk');
-const CrowdinV2 = require('../lib/crowdin.v2');
 
 program
     .usage('fed-crowdin-cli')
