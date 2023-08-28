@@ -1,6 +1,6 @@
 {
     "name": "fed-crowdin-cli",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Crowdin CLI",
     "main": "bin/cli.js",
     "type": "module",
@@ -31,7 +31,8 @@
         "compressing": "1.9.0",
         "form-data": "4.0.0",
         "got": "13.0.0",
-        "path": "0.12.7"
+        "path": "0.12.7",
+        "prompts": "^2.4.2"
     },
     "devDependencies": {
         "@babel/eslint-parser": "7.22.9",
