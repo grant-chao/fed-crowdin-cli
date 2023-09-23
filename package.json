@@ -1,6 +1,6 @@
 {
     "name": "fed-crowdin-cli",
-    "version": "2.1.1",
+    "version": "3.0.1",
     "description": "Crowdin CLI",
     "main": "bin/cli.js",
     "type": "module",
